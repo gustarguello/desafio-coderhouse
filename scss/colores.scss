@@ -1,0 +1,44 @@
+$menueconomico: #947300;
+$menuestandar: #679400;
+$menupremium: #9e2d00;
+
+
+/*fondos de mis menúes de catering*/
+.economico {
+    background-color: $menueconomico;
+}
+
+.estandar {
+    background-color: $menuestandar;
+}
+
+.premium {
+    background-color: $menupremium;
+}
+
+
+/*fondo body*/
+.fondoB {
+    background-image: linear-gradient(to bottom, black, white);
+}
+
+/*footer*/
+footer {
+    background-color: teal;
+}
+
+/*menu hamburguesa*/
+.tablaH {
+    background-image: linear-gradient(to bottom, #fbddd5, white );
+}
+
+/*menu platos*/ 
+.mPlatos {
+    background-image: linear-gradient(to bottom, black, white);
+}
+
+.histMain {
+    display: block;
+    background: linear-gradient(to right, white, darkgoldenrod);
+    margin-bottom: 5rem;
+}

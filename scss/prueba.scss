@@ -182,35 +182,6 @@ section ul {
 }
 
 
-.imaBurg:hover {
-    animation: animacion 3s ease-in-out 0s infinite normal none;
-}
-/*---------------------------------animaciones----------------------------------*/
-@keyframes animacion {
-    0% {
-       transform: rotate(0deg);
-    }
-
-    25% {
-        transform: rotate(15deg);
-    }
-    50% {
-        transform: rotate(45deg);
-    }
-    75% {
-        transform: rotate(-45deg);
-    }
-    85% {
-        transform: rotate(0deg);
-    }
-    90% {
-        width: 75%;
-    }
-    100% {
-        width: 50%;
-    }
-}
-
 
 @keyframes animacion2 {
     0% {

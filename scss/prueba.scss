@@ -277,31 +277,7 @@ section ul {
 }
 
 
-/*----------------aplicando Grids---------------*/
-/*
-#grilla {
-    height: 100%;
-}
 
-#grilla {
-    display: grid;
-    gap: 10px;
-    grid-template-areas:
-    "header  header" 286px
-    "nav  nav" 50px
-    "main  img" 1fr
-    "main  video" 1fr
-    "footer footer" 100px/
-      2fr     1fr;
-}
-
-header {
-    grid-area: header;
-}
-
-nav {
-    grid-area: nav;
-}*/
 /*-------------------home--------------------------------------------------------------------------------*/
 
                  
@@ -324,7 +300,7 @@ main {
 
 #secVideo {
     grid-area: video;
-    /*background-color: darkmagenta;*/
+    
 }
 /*------------------home--------------------------------------------------------------------------------*/
 
@@ -338,20 +314,7 @@ main {
 /*-------------------Moto G4 (Celular)----------------*/
 
 @media only screen and (min-width: 340px) {
-    /*#grilla {
-        background-color: darkslategray;
-        width: 100%;
-        display: grid;
-        gap: 10px;
-        grid-template-areas:
-        "header"
-        "nav"
-        "main"
-        "img"
-        "video"
-        "footer";
-    }*/
-   
+       
 .imaBurg img {
     width: 150px;
     height: 200px;
@@ -363,46 +326,13 @@ main {
         padding: 3px;
         border: 2px solid rgb(90, 1, 1);
     }
-    /*
-    .titulo1 {
-        
-            color: white;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: 50px;
-            letter-spacing: 16px; 
-            height: 100px;  
-            line-height: 100px;   
-            background-color: black;
-            background-position: center;
-            padding-top: 20px;
-            padding-bottom: 20px;  
-            
-    }*/
+    
 }
 /*----------------tablet-----------------*/
 
 
 @media only screen and (min-width: 768px) {
-   /* #grilla {
-        background-color:rgba(128, 180, 204, 0.863);
-        display: grid;
-        gap: 10px;
-        grid-template:
-        "header  header"
-        "nav  nav"
-        "main  img"
-        "main  video"
-        "footer footer" 100px;    
-        
-    }
-    nav {
-        width: 100%;
-    }
-    
-    header {
-        width: 768;
-    }*/
-
+  
     .imaBurg img {
         width: 300px;
         height: 300px;
@@ -416,40 +346,7 @@ main {
         padding: 3px;
         border: 2px solid rgb(90, 1, 1);
     }
-    /*
-    .titulo1 {
-        
-        color: white;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 100px;
-        letter-spacing: 16px; 
-        height: 100px;  
-        line-height: 100px;   
-        background-color: black;
-        background-position: center;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    
-    }*/
 }
-/*---------------------------ordenador-----------------------------*/
-
-
- /*@media only screen and (min-width: 1024px) {
-    #grilla {
-        background-color:rgba(128, 180, 204, 0.863);
-        display: grid;
-        gap: 10px;
-        grid-template:
-        "header  header" 286px
-        "nav  nav" 50px
-        "main  img" 529px
-        "main  video" 275px
-        "footer footer" 100px/
-          2fr     1fr;
-    }
-}*/
-
 
 
 /*import de scss*/

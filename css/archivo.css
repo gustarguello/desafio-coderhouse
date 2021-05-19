@@ -5,7 +5,7 @@
 
 main p {
   font-family: 'Bebas Neue', cursive, Arial, Helvetica, sans-serif;
-  color: midnightblue;
+  color: #042a2b;
   font-size: 25px;
   font-style: italic;
   text-align: center; }
@@ -187,7 +187,7 @@ main {
   padding-bottom: 25%; }
 
 main {
-  background-image: linear-gradient(to right, darkgoldenrod, white); }
+  background-image: linear-gradient(to bottom, #042a2b, white); }
 
 #secImg {
   grid-area: img;
@@ -256,6 +256,14 @@ footer {
   margin: 4em  auto; }
 
 /*COLORES*/
+/*fondo header index*/
+.fondo {
+  background-color: #5eb1bf; }
+
+/*body index*/
+.bodyn {
+  background-color: #ef7b45; }
+
 /*fondos de mis menúes de catering*/
 .economico {
   background-color: #947300; }
@@ -265,6 +273,10 @@ footer {
 
 .premium {
   background-color: #9e2d00; }
+
+/*fondo de navbar*/
+.navb {
+  background-color: #cdedf6; }
 
 /*fondo body*/
 .fondoB {
@@ -284,5 +296,5 @@ footer {
 
 .histMain {
   display: block;
-  background: linear-gradient(to right, white, darkgoldenrod);
+  background: linear-gradient(to bottom, #476263, #809394);
   margin-bottom: 5rem; }

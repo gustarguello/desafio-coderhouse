@@ -2,6 +2,15 @@ $menueconomico: #947300;
 $menuestandar: #679400;
 $menupremium: #9e2d00;
 
+/*fondo header index*/
+.fondo {
+    background-color: #5eb1bf;
+}
+/*body index*/
+.bodyn {
+    background-color:#ef7b45 ;
+}
+
 
 /*fondos de mis menúes de catering*/
 .economico {
@@ -14,6 +23,11 @@ $menupremium: #9e2d00;
 
 .premium {
     background-color: $menupremium;
+}
+
+/*fondo de navbar*/
+.navb {
+    background-color: #cdedf6;
 }
 
 
@@ -39,6 +53,6 @@ footer {
 
 .histMain {
     display: block;
-    background: linear-gradient(to right, white, darkgoldenrod);
+    background: linear-gradient(to bottom, #476263, #809394 );
     margin-bottom: 5rem;
 }

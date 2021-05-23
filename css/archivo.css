@@ -238,6 +238,18 @@ footer {
 .histMain {
   font-size: 5em; }
 
+.achicando {
+  height: 350px;
+  width: auto; }
+
+.carousel-item {
+  height: 400px;
+  width: 615px; }
+
+.carousel-inner {
+  height: auto;
+  width: 615px; }
+
 /*BOOTSTRAP*/
 .form-group {
   margin: 2em; }
